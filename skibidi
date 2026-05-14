@@ -68,6 +68,10 @@
     background-color: transparent !important;
 }
 
+.scroller_ef3116 {
+  display: block !important;
+  overflow: hidden scroll !important;
+}
 /* Hide borders */
 .sidebarList__5e434,
 .container_c8ffbb,
