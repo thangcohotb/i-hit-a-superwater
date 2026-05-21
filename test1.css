@@ -1,6 +1,7 @@
 :root {
   /* APP ELEMENTS */
   --app-bg: url(https://i.ibb.co/5h7854Wy/bgmVeyt.jpg);
+  --cat-home-icon: url(https://i.imgur.com/knu0gJQ.png);
   --app-blur: 6px;
   --app-margin: 24px;
   --app-radius: 10px;
@@ -6560,8 +6561,15 @@ body,
 .align-chat-input .emojiButton__04eed {
   border-radius: var(--space-16);
 }
-  background-image: url(https://i.ibb.co/PsdHscRV/arcaea-cry.gif) !important;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
+
+
+
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 {
+  background: var(--cat-home-icon) center/cover no-repeat;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 svg {
+  display: none;
 }
