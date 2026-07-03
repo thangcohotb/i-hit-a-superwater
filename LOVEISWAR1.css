@@ -2936,3 +2936,21 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
   display: block !important;
   overflow: hidden scroll !important;
 }
+.guilds_c48ade,
+.wrapper_ef3116 {
+    width: 72px !important;
+    min-width: 72px !important;
+}
+
+.scroller_ef3116 {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+.scroller_ef3116 > div[aria-label="Servers"] {
+    overflow-y: auto !important;
+}
+
+.visual-refresh nav[class*="guilds"] {
+    width: 72px !important;
+}
