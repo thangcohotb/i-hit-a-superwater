@@ -1,0 +1,158 @@
+/* =========================
+BACKGROUND + GLASS
+========================= */
+body::before {
+content: "";
+position: fixed;
+inset: 0;
+z-index: -2;
+background: var(--app-bg) center/cover no-repeat;
+}
+
+body::after {
+content: "";
+position: fixed;
+inset: 0;
+z-index: -1;
+backdrop-filter: blur(var(--app-blur));
+}
+
+/* =========================
+FLOATING UI
+========================= */
+.layers__160d8 {
+margin: 20px;
+border-radius: 20px;
+overflow: hidden;
+box-shadow: 0 20px 80px rgba(0,0,0,0.6);
+}
+
+/* =========================
+SIDEBAR AUTO HIDE
+========================= */
+.sidebar__5e434 {
+transform: translateX(-100%);
+transition: 0.3s;
+}
+
+.sidebar__5e434 {
+transform: translateX(0);
+}
+
+/* =========================
+CHANNEL HOVER EFFECT
+========================= */
+.link__2ea32 {
+transition: all 0.2s ease;
+}
+
+.link__2ea32 {
+transform: translateX(5px);
+background: rgba(255,255,255,0.1);
+}
+
+/* =========================
+MESSAGE ANIMATION
+========================= */
+.message_d5deea {
+animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+from {
+opacity: 0;
+transform: translateY(10px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+/* =========================
+AVATAR GLOW
+========================= */
+.avatar_c19a55 {
+box-shadow: 0 0 10px var(--accent-color);
+}
+
+/* =========================
+SCROLLBAR CUSTOM
+========================= */
+::-webkit-scrollbar {
+width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+background: rgba(255,255,255,0.2);
+border-radius: 10px;
+}
+
+/* =========================
+GRADIENT ACCENT
+========================= */
+{
+--gradient: linear-gradient(270deg, #00ffff, #ff00ff, #00ffff);
+background-size: 400% 400%;
+animation: gradientMove 12s ease infinite;
+}
+
+@keyframes gradientMove {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
+
+/* =========================
+BUTTON STYLE
+========================= */
+button {
+border-radius: 12px !important;
+transition: 0.2s;
+}
+
+button {
+transform: scale(1.05);
+}
+
+/* =========================
+CHAT GLASS
+========================= */
+.chat_f75fb0 {
+background: rgba(0,0,0,0.3) !important;
+backdrop-filter: blur(10px);
+}
+
+/* =========================
+MEMBERS HIDE (FOCUS MODE)
+========================= */
+.membersWrap_c8ffbb {
+opacity: 0;
+transition: 0.3s;
+}
+
+.membersWrap_c8ffbb {
+opacity: 1;
+}
+
+/* =========================
+CYBERPUNK TEXT MODE (OPTIONAL)
+========================= */
+body.cyberpunk {
+font-family: Consolas, monospace !important;
+color: #00ff9f !important;
+}
+
+/* =========================
+SCANLINE EFFECT
+========================= */
+body::after {
+background: repeating-linear-gradient(
+to bottom,
+rgba(255,255,255,0.03),
+rgba(255,255,255,0.03) 1px,
+transparent 1px,
+transparent 3px
+);
+mix-blend-mode: overlay;
+}
