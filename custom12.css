@@ -1106,3 +1106,24 @@ display:none;}
 .darkTheme-3uETC4.container_fea832,
 [data-nav-anchor-key="betterdiscord_themes_category"] [class*="container__"] {
 background-color:transparent !important;}
+/* Màu tên kênh */
+[class*="channelName_"],
+[class*="name_"][class*="overflow_"] {
+    color: #00ffff !important;
+}
+
+/* Màu tên danh mục */
+[class*="mainContent_"] [class*="overflow_"] {
+    color: #ffcc00 !important;
+}
+
+/* Màu kênh khi rê chuột */
+[class*="modeMuted_"]:hover,
+[class*="modeUnread_"]:hover {
+    color: #ff66cc !important;
+}
+
+/* Màu kênh đang chọn */
+[class*="modeSelected_"] [class*="name_"] {
+    color: #00ff88 !important;
+}
