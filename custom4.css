@@ -1109,12 +1109,12 @@ background-color:transparent !important;}
 /* Màu tên kênh */
 [class*="channelName_"],
 [class*="name_"][class*="overflow_"] {
-    color: #19588c !important;
+    color: #1e6eb0 !important;
 }
 
 /* Màu tên danh mục */
 [class*="mainContent_"] [class*="overflow_"] {
-    color: #0e0d4f !important;
+    color: #2b2b2b !important;
 }
 
 /* Màu kênh khi rê chuột */
