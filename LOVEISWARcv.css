@@ -854,7 +854,7 @@ html.theme-light {
 }
 
 #app-mount .info__2debe .line__2debe:last-child:after {
-    content: "Chillax " var(--cl-appearance) " 🎮";
+    content: "Shinomya Kaguya" var(--cl-appearance) " 🎮";
     display: block;
 }
 
